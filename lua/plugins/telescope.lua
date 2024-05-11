@@ -14,6 +14,7 @@ return {
       end,
     },
     keys = {
+      { "<leader><leader>", false },
       {
         "<leader>fP",
         function()
