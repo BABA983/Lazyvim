@@ -76,6 +76,12 @@ return {
       ["<C-y>"] = { "select_and_accept" },
       ["<C-k>"] = { "select_prev", "fallback" },
       ["<C-j>"] = { "select_next", "fallback" },
+
+      ["<C-p>"] = { "scroll_documentation_up", "fallback_to_mappings" },
+      ["<C-n>"] = { "scroll_documentation_down", "fallback_to_mappings" },
+
+      -- ["<C-b>"] = { "scroll_documentation_up", "fallback" },
+      -- ["<C-f>"] = { "scroll_documentation_down", "fallback" },
     },
   },
   ---@param opts blink.cmp.Config | { sources: { compat: string[] } }
